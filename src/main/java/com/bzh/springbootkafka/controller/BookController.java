@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+/**
+ * 控制器
+ */
 @RestController
 @RequestMapping(value = "/book")
 public class BookController {
